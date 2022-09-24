@@ -33,7 +33,7 @@ class Thread extends Eloquent
      *
      * @var array
      */
-    protected $fillable = ['subject'];
+    protected $fillable = ['trade_id','trade_offer_id','subject'];
 
     /**
      * The attributes that should be mutated to date's.
