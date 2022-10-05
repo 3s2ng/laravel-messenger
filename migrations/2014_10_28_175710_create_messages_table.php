@@ -19,6 +19,7 @@ class CreateMessagesTable extends Migration
             $table->integer('thread_id')->unsigned();
             $table->integer('user_id')->unsigned();
             $table->text('body');
+            $table->string('type', 50)->default('message');
             $table->timestamps();
         });
     }

@@ -34,7 +34,7 @@ class Message extends Eloquent
      *
      * @var array
      */
-    protected $fillable = ['thread_id', 'user_id', 'body'];
+    protected $fillable = ['thread_id', 'user_id', 'body', 'type'];
 
     /**
      * The attributes that should be mutated to date's.
