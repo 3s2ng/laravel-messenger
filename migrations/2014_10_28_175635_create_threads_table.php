@@ -21,6 +21,7 @@ class CreateThreadsTable extends Migration
             $table->integer('trade_id');
             $table->integer('trade_offer_id');
             $table->string('subject');
+            $table->integer('status',1)->default(1);
             $table->timestamps();
         });
     }
